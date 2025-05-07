@@ -64,7 +64,7 @@
 
 ###
 
-<p align="left"># 1. Clona el repositorio<br>git clone https://github.com/tu-usuario/track-x.git<br>cd track-x<br><br># 2. Instala las dependencias del frontend<br>npm install<br><br># 3. En una nueva terminal, inicia el frontend con Vite<br>npm run dev</p>
+<p align="left"># 1. Clona el repositorio<br>git clone https://github.com/Rawcossio/registro-asistencia-capacitacion.git<br>cd registro-asistencia-capacitacion<br><br># 2. Instala las dependencias del frontend<br>npm install<br><br># 3. En una nueva terminal, inicia el frontend con Vite<br>npm run dev</p>
 
 ###
 
