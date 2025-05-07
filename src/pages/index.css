@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: 100vh;
+}
+/* Menu de navegacion */
+nav{
+  width: 100%;
+  height: 100px;
+  background:linear-gradient(#3f4c6b, #606c88);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu-estilos{
+  width: 100%;
+  height: 100px;
+ display: flex;
+ gap:500px;
+ margin-top:30px;
+}
+
+.titulo{
+font-family: "Fira Code", monospace;
+font-size: 40px;
+font-weight: 400;
+color: #1DEAF5;
+margin: 10px;
+text-decoration:none;
+}
+
+.menu-botones{
+  width: 30%;
+  height: 100px;
+  padding-left: 60px;
+}
+
+.boton{
+  width:30%;
+  height: 50px;
+  color: #e8e8e8;
+  background-color: rgb(99 102 241);
+  border-radius: 10px;
+  border: transparent;
+  margin: 20px;
+  font-family: "Fira Code", monospace;
+  font-weight:600;
+  text-decoration: none;
+  padding: 15px;
+  position: relative;
+  top: 20px;
+}
+/* Seccion de asistentes */
+
+main{
+  width: 100%;
+  height: 650px;
+  background:linear-gradient(#3f4c6b, #606c88);
+}
+
+.Asistentes{
+width: 100%;
+height: 650px;
+}
+.Asistentes h1{
+font-family: "Fira Code", monospace;
+font-size: 40px;
+font-weight: 700;
+color: #1DA6F5;
+text-align: center;
+padding: 15px;
+}
+.Asistentes h2{
+font-family: "Fira Code", monospace;
+font-size: 30px;
+font-weight: 700;
+color: #e8e8e8;
+text-align: center;
+padding: 20px;
+}
+.Asistentes section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Card-asistente{
+width: 25%;
+height: 450px;
+background:linear-gradient(rgb(34, 115, 197), rgb(99 102 241));
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+padding-top: 20px;
+border-radius: 30px;
+font-family: "Fira Code", monospace;
+font-size: 20px;
+font-weight: 400;
+color: #e8e8e8;
+margin: 20px;
+}
+.Card-asistente h1{
+  color: #1DEAF5;
+  font-size: 30px;
+}
+.Card-asistente img{
+  width: 200px;
+  height: 200px;
+}
+.Card-asistente section img{
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
